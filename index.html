@@ -1,134 +1,458 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Светлана Штименко - фрилансер, веб-разработчик</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:400;700&display=swap&subset=cyrillic" rel="stylesheet">
-    <link rel="stylesheet" href="css/animate.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:400;700&display=swap&subset=cyrillic"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <script src="js/wow.min.js" defer></script>
+    <script src="js/swiper-bundle.min.js" defer></script>
     <script src="js/main.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
     <header class="hero">
-        <div class="container">
-            <div class="hero-header">
-                <img src="img/avatar.jpg" alt="Светлана Штименко" class="logo" />
-                <div class="social-links">
-                    <a href="https://github.com/Svet-lik" class="social-link"><img src="img\social\github.svg" alt="github"></a>
-                    <a href="#" class="social-link"><img src="img\social\twitter.svg" alt="twitter"></a>
-                    <a href="#" class="social-link"><img src="img\social\instagram.svg" alt="instagram"></a>
-                    <a href="#" class="social-link"><img src="img\social\facebook.svg" alt="fb"></a>
-                </div>
-                <!-- /.social-links -->
-            </div>
-            <!-- /.hero-header -->
-            <div class="hero-content">
-                <div class="hero-text">
-                    <span class="hero-subtitle wow fadeInRight" data-wow-delay="0.2s">Фрилансер</span>
-                    <h1 class="hero-title wow fadeInRight" data-wow-delay="0.4s">Светлана Штименко</h1>
-                    <p class="hero-description wow fadeInRight" data-wow-delay="0.6s">Разрабатываю сайты для малого и среднего бизнеса. <br>У меня можно заказать дизайн и верстку небольшого сайта или интернет-магазина</p>
-                    <button class="button hero-button wow fadeInRight" data-wow-delay="0.8s">Бесплатная консультация</button>
-                </div>
-                <!-- /.hero-text -->
-                <div class="hero-avatar wow fadeIn" data-wow-delay="1.5s"></div>
-                <!-- /.hero-avatar -->
-            </div>
-            <!-- /.hero-container -->
+      <div class="container">
+        <div class="hero-header">
+          <img src="img/avatar.jpg" alt="Светлана Штименко" class="logo" />
+          <div class="social-links">
+            <a href="https://github.com/Svet-lik" class="social-link"
+              ><img src="img\social\github.svg" alt="github"
+            /></a>
+            <a href="#" class="social-link"
+              ><img src="img\social\twitter.svg" alt="twitter"
+            /></a>
+            <a href="#" class="social-link"
+              ><img src="img\social\instagram.svg" alt="instagram"
+            /></a>
+            <a href="#" class="social-link"
+              ><img src="img\social\facebook.svg" alt="fb"
+            /></a>
+          </div>
+          <!-- /.social-links -->
         </div>
-        <!-- /.container -->
+        <!-- /.hero-header -->
+        <div class="hero-content">
+          <div class="hero-text">
+            <span class="hero-subtitle wow fadeInRight" data-wow-delay="0.2s"
+              >Фрилансер</span
+            >
+            <h1 class="hero-title wow fadeInRight" data-wow-delay="0.4s">
+              Светлана Штименко
+            </h1>
+            <p class="hero-description wow fadeInRight" data-wow-delay="0.6s">
+              Разрабатываю сайты для малого и среднего бизнеса. <br />У меня
+              можно заказать дизайн и верстку небольшого сайта или
+              интернет-магазина
+            </p>
+            <button
+              class="button hero-button wow fadeInRight"
+              data-wow-delay="0.8s"
+            >
+              Бесплатная консультация
+            </button>
+          </div>
+          <!-- /.hero-text -->
+          <div class="hero-avatar wow fadeIn" data-wow-delay="1.5s"></div>
+          <!-- /.hero-avatar -->
+        </div>
+        <!-- /.hero-container -->
+      </div>
+      <!-- /.container -->
     </header>
     <!-- /.hero -->
     <main>
-        <section class="features section">
-            <div class="container">
-                <h2 class="section-title wow fadeInDown" data-wow-delay="1.7s">Со мной удобно работать</h2>
-                <div class="features-block">
-                    <div class="featutes-item wow fadeInDown" data-wow-delay="0.3s">
-                        <img src="img/features/offer-img.svg" alt="По договору" class="features-image">
-                        <h3 class="features-title">По договору</h3>
-                        <p class="featutes-text">Предоставлю все документы для бухгалтерии: договоры, счета и акты. Работаю как ИП без НДС.</p>
-                    </div>
-                    <div class="featutes-item wow fadeInDown" data-wow-delay="0.6s">
-                        <img src="img/features/deadline-img.svg" alt="Точно в срок" class="features-image">
-                        <h3 class="features-title">Точно в срок</h3>
-                        <p class="featutes-text">В договоре прописана моя  ответственность за срок проекта. Если просрочу — плачу неустойку. </p>
-                    </div>
-                    <div class="featutes-item wow fadeInDown" data-wow-delay="0.9s">
-                        <img src="img/features/agreement-img.svg" alt="Ценник под вас" class="features-image">
-                        <h3 class="features-title">Ценник под вас</h3>
-                        <p class="featutes-text">Если у вас нетиповой проект, сделаю рассчет цены за работу и объясню, как складывается цена.</p>
-                    </div>
-                    <div class="featutes-item wow fadeInDown" data-wow-delay="1.2s">
-                        <img src="img/features/steps-img.svg" alt="Премежуточные итоги" class="features-image">
-                        <h3 class="features-title">Премежуточные итоги</h3>
-                        <p class="featutes-text">Показываю работу поэтапно, а не в последий момент перед крайним сроком. </p>
-                    </div>
-                    <div class="featutes-item wow fadeInDown" data-wow-delay="1.5s">
-                        <img src="img/features/storage-img.svg" alt="Хостинг и домен" class="features-image">
-                        <h3 class="features-title">Хостинг и домен</h3>
-                        <p class="featutes-text">Если мы договорились о цене проекта, в неё входит всё: домен и хостинг на год + SSL сертификат.</p>
-                    </div>
-                    <div class="featutes-item wow fadeInDown" data-wow-delay="1.8s">
-                        <img src="img/features/conversation-img.svg" alt="Не брошу после сдачи" class="features-image">
-                        <h3 class="features-title">Не брошу после сдачи</h3>
-                        <p class="featutes-text">Научу вас или вашего сотрудника пользоваться сайтом, запишу видео-инструкции.</p>
-                    </div>
-                </div>
-                <!-- /.features-block -->
-            </div>
-            <!-- /.container -->
-        </section>
-        <!-- /.features -->    
-    </main>
-    <footer class="section">
+      <section class="features section">
         <div class="container">
-            <h2 class="section-title wow fadeIn" data-wow-delay="0.5s">Свяжитесь со мной</h2>
-            <div class="contacts-block">
-                <form action="#" class="contacts-form wow fadeInLeft" data-wow-delay="0.7s">
-                    <h4 class="form-title">Можете просто оставить заявку, <br>я позвоню вам сегодня</h4>
-                    <input type="text" class="input input-name" placeholder="Ваше имя">
-                    <input type="text" class="input input-phone" placeholder="Ваш телефон">
-                    <button class="button form-button">Бесплатная консультация</button>
-                </form>
-                <div class="contacts-text wow fadeInRight" data-wow-delay="0.9s">
-                    <div class="contacts-data">
-                        <div class="contacts-phone">
-                            <h4 class="contacts-title">Телефон</h4>
-                            <a href="tel:+79991234567" class="contacts-link">+7 999 123-45-67</a>
-
-                        </div>
-                        <!-- /.contacts-phone -->
-                        <div class="contacts-mail">
-                            <h4 class="contacts-title">Почта</h4>
-                            <a href="mailto:ivanov@mail.ru" class="contacts-link">ivanov@mail.ru</a>
-                        </div>
-                        <!-- /.contacts-mail -->
-                        <contacts-social>
-                            <h4 class="contacts-title">Соцсети</h4>
-                            <a href="#" class="contacts-link">t.me/shtim</a>
-                            <a href="#" class="contacts-link">vk.me/shtim</a>
-                            <a href="#" class="contacts-link">fb.me/shtim</a>
-                            
-                        </contacts-social>
-                    </div>
-                    <!-- /.contacts-data -->
-                    <div class="social-links">
-                        <a href="https://github.com/Svet-lik" class="social-link"><img src="img\social\github.svg" alt="github"></a>
-                        <a href="#" class="social-link"><img src="img\social\twitter.svg" alt="twitter"></a>
-                        <a href="#" class="social-link"><img src="img\social\instagram.svg" alt="instagram"></a>
-                        <a href="#" class="social-link"><img src="img\social\facebook.svg" alt="fb"></a>
-                    </div>
-                    <!-- /.social-links -->
-                    <a href="#" class="contacts-policy">Политика конфиденциальности</a>
-                </div>
-                <!-- /.contacts-text -->
+          <h2 class="section-title wow fadeInDown" data-wow-delay="1.7s">
+            Со мной удобно работать
+          </h2>
+          <div class="features-block">
+            <div class="featutes-item wow fadeInDown" data-wow-delay="0.3s">
+              <img
+                src="img/features/offer-img.svg"
+                alt="По договору"
+                class="features-image"
+              />
+              <h3 class="features-title">По договору</h3>
+              <p class="featutes-text">
+                Предоставлю все документы для бухгалтерии: договоры, счета и
+                акты. Работаю как ИП без НДС.
+              </p>
             </div>
-            <!-- /.contacts-block -->
+            <div class="featutes-item wow fadeInDown" data-wow-delay="0.6s">
+              <img
+                src="img/features/deadline-img.svg"
+                alt="Точно в срок"
+                class="features-image"
+              />
+              <h3 class="features-title">Точно в срок</h3>
+              <p class="featutes-text">
+                В договоре прописана моя ответственность за срок проекта. Если
+                просрочу — плачу неустойку.
+              </p>
+            </div>
+            <div class="featutes-item wow fadeInDown" data-wow-delay="0.9s">
+              <img
+                src="img/features/agreement-img.svg"
+                alt="Ценник под вас"
+                class="features-image"
+              />
+              <h3 class="features-title">Ценник под вас</h3>
+              <p class="featutes-text">
+                Если у вас нетиповой проект, сделаю рассчет цены за работу и
+                объясню, как складывается цена.
+              </p>
+            </div>
+            <div class="featutes-item wow fadeInDown" data-wow-delay="1.2s">
+              <img
+                src="img/features/steps-img.svg"
+                alt="Премежуточные итоги"
+                class="features-image"
+              />
+              <h3 class="features-title">Премежуточные итоги</h3>
+              <p class="featutes-text">
+                Показываю работу поэтапно, а не в последий момент перед крайним
+                сроком.
+              </p>
+            </div>
+            <div class="featutes-item wow fadeInDown" data-wow-delay="1.5s">
+              <img
+                src="img/features/storage-img.svg"
+                alt="Хостинг и домен"
+                class="features-image"
+              />
+              <h3 class="features-title">Хостинг и домен</h3>
+              <p class="featutes-text">
+                Если мы договорились о цене проекта, в неё входит всё: домен и
+                хостинг на год + SSL сертификат.
+              </p>
+            </div>
+            <div class="featutes-item wow fadeInDown" data-wow-delay="1.8s">
+              <img
+                src="img/features/conversation-img.svg"
+                alt="Не брошу после сдачи"
+                class="features-image"
+              />
+              <h3 class="features-title">Не брошу после сдачи</h3>
+              <p class="featutes-text">
+                Научу вас или вашего сотрудника пользоваться сайтом, запишу
+                видео-инструкции.
+              </p>
+            </div>
+          </div>
+          <!-- /.features-block -->
         </div>
         <!-- /.container -->
+      </section>
+      <!-- /.features -->
+      <section class="section projects">
+        <div class="container">
+          <div class="section-title">Последние проекты</div>
+
+          <!-- Slider main container -->
+          <div class="swiper-container projects-slider">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide project-slider">
+                    <img
+                      src="img//projects/iTunes.png"
+                      alt="Медиа портал ЯTunes"
+                      class="project-image"
+                    />
+                    <div class="project-text">
+                      <h3 class="project-title">
+                        Медиа портал ЯTunes
+                      </h3>
+                      <div class="project-time">
+                        <img
+                          src="img/time-icon.svg"
+                          alt="Срок"
+                          class="project-icon"
+                        />
+                        <div class="project-description">
+                          <h4 class="project-subtitle">Срок</h4>
+                          <p class="project-paragraph">4 рабочих дня</p>
+                        </div>
+                      </div>
+                      <!-- /.project-time -->
+                      <div class="project-cost">
+                        <img
+                          src="img/cost-icon.svg"
+                          alt="Результат"
+                          class="project-icon"
+                        />
+                        <div class="project-description">
+                          <h4 class="project-subtitle">Результат</h4>
+                          <p class="project-paragraph">Все домашние работы сданы</p>
+                        </div>
+                      </div>
+                      <!-- /.project-cost -->
+                      <div class="project-feedback">
+                        <img
+                          src="img/feedback-icon.svg"
+                          alt="Итоги"
+                          class="project-icon"
+                        />
+                        <div class="project-description">
+                          <h4 class="project-subtitle">Итоги</h4>
+                          <p class="project-paragraph">
+                            Позработала с основами JavaScript и ES6, научилась работать с элементами DOM дерева, получать элементы со страницы, манипулировать ими (скрывать, отображать, создавать новые). Узнала как работать с селекторами в особенности классами: добавлять, удалять и проверять наличие классов, работать со стилями CSS с помощью JS. Узнала как работать с тегами audio и video, как отлавливать события пользователя и события браузера с помощью JavaScript и реагировать на них, познакомимилась с шаблонными строками и интерполяцией, реализовала простые Табы
+                          </p>
+                        </div>
+                      </div>
+                      <!-- /.project-feedback -->
+                    </div>
+                    <!-- /.project-text -->
+                  
+              </div>
+
+              <div class="swiper-slide project-slider">
+                <img
+                  src="img/projects/Ghostbusters.png"
+                  alt="Промосайт фильма “Охотники за привидениями: Наследники”"
+                  class="project-image"
+                />
+                <div class="project-text">
+                  <h3 class="project-title">
+                    Промосайт фильма “Охотники за привидениями: Наследники”
+                  </h3>
+                  <div class="project-time">
+                    <img
+                      src="img/time-icon.svg"
+                      alt="Срок"
+                      class="project-icon"
+                    />
+                    <div class="project-description">
+                      <h4 class="project-subtitle">Срок</h4>
+                      <p class="project-paragraph">4 рабочих дня</p>
+                    </div>
+                  </div>
+                  <!-- /.project-time -->
+                  <div class="project-cost">
+                    <img
+                      src="img/cost-icon.svg"
+                      alt="Результат"
+                      class="project-icon"
+                    />
+                    <div class="project-description">
+                      <h4 class="project-subtitle">Результат</h4>
+                      <p class="project-paragraph">Все домашние работы сданы</p>
+                    </div>
+                  </div>
+                  <!-- /.project-cost -->
+                  <div class="project-feedback">
+                    <img
+                      src="img/feedback-icon.svg"
+                      alt="Итоги"
+                      class="project-icon"
+                    />
+                    <div class="project-description">
+                      <h4 class="project-subtitle">Итоги:</h4>
+                      <p class="project-paragraph">
+                        Написала сайт на HTML и CSS по дизайн-макету в программе Figma, разобралась с семантической версткой, сделала сайт адаптивным, можно смотреть с планшета или телефона, выгрузила сайт на github
+                      </p>
+                    </div>
+                  </div>
+                  <!-- /.project-feedback -->
+                </div>
+                <!-- /.project-text --> 
+            </div>
+
+            <div class="swiper-slide project-slider">
+              <img
+                src="img/projects/NETCLICKS.png"
+                alt="Киносайт с сериалами"
+                class="project-image"
+              />
+              <div class="project-text">
+                <h3 class="project-title">
+                  Киносайт с сериалами
+                </h3>
+                <div class="project-time">
+                  <img
+                    src="img/time-icon.svg"
+                    alt="Срок"
+                    class="project-icon"
+                  />
+                  <div class="project-description">
+                    <h4 class="project-subtitle">Срок</h4>
+                    <p class="project-paragraph">4 рабочих дня</p>
+                  </div>
+                </div>
+                <!-- /.project-time -->
+                <div class="project-cost">
+                  <img
+                    src="img/cost-icon.svg"
+                    alt="Результат"
+                    class="project-icon"
+                  />
+                  <div class="project-description">
+                    <h4 class="project-subtitle">Результат</h4>
+                    <p class="project-paragraph">Все домашние работы сданы</p>
+                  </div>
+                </div>
+                <!-- /.project-cost -->
+                <div class="project-feedback">
+                  <img
+                    src="img/feedback-icon.svg"
+                    alt="Итоги"
+                    class="project-icon"
+                  />
+                  <div class="project-description">
+                    <h4 class="project-subtitle">Итоги:</h4>
+                    <p class="project-paragraph">
+                      Поработала с основами JavaScript и ES6, с элементами DOM дерева, закрепила знания как получать элементы со страницы, создавать новые и взаимодействовать с ними. Было реализовано меню с помощью работы с классами, поиск сериалов в базе данных по названию. Поработала с объектами и массивами данных используя современный синтаксис, отлавливать события на странице и реагировать на них. Познакомилась с технологиями fetch, async и await. С помощью них училась получать данные с сервера.
+                    </p>
+                  </div>
+                </div>
+                <!-- /.project-feedback -->
+              </div>
+              <!-- /.project-text --> 
+          </div>
+
+            <div class="swiper-slide project-slider">
+                <img
+                  src="img/projects/BURGER-QUIZ.png"
+                  alt="Квиз-лендинг бургерной"
+                  class="project-image"
+                />
+                <div class="project-text">
+                  <h3 class="project-title">
+                    Квиз-лендинг бургерной
+                  </h3>
+                  <div class="project-time">
+                    <img
+                      src="img/time-icon.svg"
+                      alt="Срок"
+                      class="project-icon"
+                    />
+                    <div class="project-description">
+                      <h4 class="project-subtitle">Срок</h4>
+                      <p class="project-paragraph">3 рабочих дня</p>
+                    </div>
+                  </div>
+                  <!-- /.project-time -->
+                  <div class="project-cost">
+                    <img
+                      src="img/cost-icon.svg"
+                      alt="Результат"
+                      class="project-icon"
+                    />
+                    <div class="project-description">
+                      <h4 class="project-subtitle">Результат</h4>
+                      <p class="project-paragraph">Все домашние работы сданы</p>
+                    </div>
+                  </div>
+                  <!-- /.project-cost -->
+                  <div class="project-feedback">
+                    <img
+                      src="img/feedback-icon.svg"
+                      alt="Итоги"
+                      class="project-icon"
+                    />
+                    <div class="project-description">
+                      <h4 class="project-subtitle">Итоги:</h4>
+                      <p class="project-paragraph">
+                        Поработала с основами JS и ES6, с элементами DOM, селекторами, объектами и массивами, интерполяцией, fetch, отлавливаю события с помощью JS, познакомилась с платформой Firebase — и написала свой квиз на JS.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- /.project-feedback -->
+                </div>
+                <!-- /.project-text --> 
+            </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="projects-pagination"></div>
+
+          </div>
+
+          
+        </div>
+        <!-- /.container -->
+      </section>
+      <!-- /.section projects -->
+    </main>
+    <footer class="section">
+      <div class="container">
+        <h2 class="section-title wow fadeIn" data-wow-delay="0.5s">
+          Свяжитесь со мной
+        </h2>
+        <div class="contacts-block">
+          <form
+            action="#"
+            class="contacts-form wow fadeInLeft"
+            data-wow-delay="0.7s"
+          >
+            <h4 class="form-title">
+              Можете просто оставить заявку, <br />я позвоню вам сегодня
+            </h4>
+            <input
+              type="text"
+              class="input input-name"
+              placeholder="Ваше имя"
+            />
+            <input
+              type="text"
+              class="input input-phone"
+              placeholder="Ваш телефон"
+            />
+            <button class="button form-button">Бесплатная консультация</button>
+          </form>
+          <div class="contacts-text wow fadeInRight" data-wow-delay="0.9s">
+            <div class="contacts-data">
+              <div class="contacts-phone">
+                <h4 class="contacts-title">Телефон</h4>
+                <a href="tel:+79991234567" class="contacts-link"
+                  >+7 999 123-45-67</a
+                >
+              </div>
+              <!-- /.contacts-phone -->
+              <div class="contacts-mail">
+                <h4 class="contacts-title">Почта</h4>
+                <a href="mailto:ivanov@mail.ru" class="contacts-link"
+                  >ivanov@mail.ru</a
+                >
+              </div>
+              <!-- /.contacts-mail -->
+              <contacts-social>
+                <h4 class="contacts-title">Соцсети</h4>
+                <a href="#" class="contacts-link">t.me/shtim</a>
+                <a href="#" class="contacts-link">vk.me/shtim</a>
+                <a href="#" class="contacts-link">fb.me/shtim</a>
+              </contacts-social>
+            </div>
+            <!-- /.contacts-data -->
+            <div class="social-links">
+              <a href="https://github.com/Svet-lik" class="social-link"
+                ><img src="img\social\github.svg" alt="github"
+              /></a>
+              <a href="#" class="social-link"
+                ><img src="img\social\twitter.svg" alt="twitter"
+              /></a>
+              <a href="#" class="social-link"
+                ><img src="img\social\instagram.svg" alt="instagram"
+              /></a>
+              <a href="#" class="social-link"
+                ><img src="img\social\facebook.svg" alt="fb"
+              /></a>
+            </div>
+            <!-- /.social-links -->
+            <a href="#" class="contacts-policy">Политика конфиденциальности</a>
+          </div>
+          <!-- /.contacts-text -->
+        </div>
+        <!-- /.contacts-block -->
+      </div>
+      <!-- /.container -->
     </footer>
     <!-- /.section -->
-</body>
+  </body>
 </html>

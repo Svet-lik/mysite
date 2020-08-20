@@ -134,6 +134,93 @@ body {
   margin: 0;
 }
 
+/* section projects */
+.projects {
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 95.44%);
+}
+
+.project-slider {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.project-image {
+  flex-basis: 30%;
+  margin-right: 90px;
+}
+
+.project-text {
+  flex-basis: 70%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-title {
+  flex-basis: 100%;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0;
+  margin-bottom: 41px;
+}
+
+.project-time,
+.project-cost {
+  flex-basis: 50%;
+  margin-bottom: 44px;
+}
+
+.project-time,
+.project-cost,
+.project-feedback {
+  display: flex;
+  align-items: flex-start;
+}
+
+.project-subtitle {
+  margin: 0;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 7px;
+}
+
+.project-icon {
+  margin-right: 16px;
+}
+
+.project-description {
+  flex-basis: 80%;
+}
+
+.projects-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 44px;
+}
+
+.projects-bullet {
+  width: 10px;
+  height: 10px;
+  border: 2px solid #FFBB01;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.projects-bullet-active {
+  background: #FFBB01;
+}
+
+.project-paragraph {
+  margin: 0;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+}
+
 /* contacts */
 .contacts-form {
   display: block;
